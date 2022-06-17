@@ -7,7 +7,7 @@ app = Flask(__name__)
 # client가 '/'에서 GET 메쏘드를 주면 'Hello World' 를 리턴한다.
 @app.route('/', methods = ['GET'])   # '/' root 경로
 def hello_world():
-    return 'Hello World haha'
+    return 'Hello World'
 
 
 if __name__ == '__main__' :
